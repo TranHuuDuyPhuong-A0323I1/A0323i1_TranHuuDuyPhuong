@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function footToMeter(foot) {
+  return foot * 0.305;
+}
+
+function meterToFoot(meter) {
+  return meter * 3.279;
+}
+let foot = +prompt("Nhap foot: ");
+let meter = +prompt("Nhap meter: ");
+foot = footToMeter(foot);
+meter = meterToFoot(meter);
+document.write("Foot la: "+foot + "<br>");
+document.write("meter la: " + meter);
+    </script>
+</body>
+</html>

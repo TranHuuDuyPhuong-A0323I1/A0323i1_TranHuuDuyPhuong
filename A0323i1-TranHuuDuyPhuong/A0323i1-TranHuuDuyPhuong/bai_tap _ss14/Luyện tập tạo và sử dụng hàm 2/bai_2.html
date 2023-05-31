@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body><br>
+    <script>
+        function tinhDienTichHinhTron(r) {
+            const pi = 3.14;
+            return pi * r ** 2;
+        }
+
+        function tinhChuViHinhTron(r) {
+            const pi = 3.14;
+            return 2 * pi * r;
+        }
+        let r = +prompt("nhap vào số muốn tính");
+        let ketquadientich = tinhDienTichHinhTron(r);
+        let ketquachuvi = tinhChuViHinhTron(r);
+        document.write("dien tinh hinh tron la: " + ketquadientich + "<br>" );
+        document.write("chu vi hinh tron la: " + ketquachuvi);
+
+    </script>
+
+</body>
+
+</html>

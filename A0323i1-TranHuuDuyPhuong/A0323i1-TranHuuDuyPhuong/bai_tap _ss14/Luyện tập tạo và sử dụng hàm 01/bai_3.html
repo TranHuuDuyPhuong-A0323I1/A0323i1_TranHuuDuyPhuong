@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <p id="result"></p> -->
+    <script>
+        function thamso(num1, num2) {
+            if (num1 > num2) {
+                alert("tham số thứ nhất lớn hơn tham số thứ hai");
+            } else {
+                return num1 + num2;
+            }
+        }
+        let num1 = +prompt("nhap tham so 1: ");
+        let num2 = +prompt("nhap tham so 2: ");
+        let tong = thamso(num1, num2);
+        if (tong !== undefined) {
+            document.write( "Tổng của hai số là: " + tong);
+        }
+
+    </script>
+</body>
+
+</html>
